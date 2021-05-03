@@ -12,5 +12,5 @@ with open(sys.argv[1]) as f:
         args=sys.argv[2].strip()
     	print line + "." + args
         print line + "-" + args
-        print args + "-" + args
+        print args + "-" + line
         
