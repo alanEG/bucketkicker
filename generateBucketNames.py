@@ -15,4 +15,4 @@ with open(sys.argv[1]) as f:
         print(lines + "-" + args)
         print(args + "-" + lines)
         print(args + lines)
-        print()
+        print(lines + args)
