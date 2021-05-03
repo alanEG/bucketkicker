@@ -7,17 +7,16 @@ if len(sys.argv) != 3:
     exit(1);
 
 with open(sys.argv[1]) as f:
-    lines=line.strip()
     args=sys.argv[2].strip()
     for line in f:
-        print(lines + "." + args)
+        print(line.strip() + "." + line.strip())
     for line in f:
-        print(args + "." + lines)
+        print(line.strip() + "." + line.strip())
     for line in f:
-        print(lines + "-" + args)
+        print(line.strip() + "-" + line.strip())
     for line in f:
-        print(args + "-" + lines)
+        print(line.strip() + "-" + line.strip())
     for line in f:
-        print(args + lines)
+        print(line.strip() + line.strip())
     for line in f:
-        print(lines + args)
+        print(line.strip() + line.strip())
