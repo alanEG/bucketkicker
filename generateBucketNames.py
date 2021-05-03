@@ -8,4 +8,9 @@ if len(sys.argv) != 3:
 
 with open(sys.argv[1]) as f:
     for line in f:
-    	print line.strip()+"."+sys.argv[2].strip()
+        line=line.strip()
+        args=sys.argv[2].strip()
+    	print line + "." + args
+        print line + "-" + args
+        print args + "-" + args
+        
