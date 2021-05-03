@@ -9,14 +9,14 @@ if len(sys.argv) != 3:
 with open(sys.argv[1]) as f:
     args=sys.argv[2].strip()
     for line in f:
-        print(line.strip() + "." + line.strip())
+        print(line.strip() + "." + args.strip())
     for line in f:
-        print(line.strip() + "." + line.strip())
+        print(args.strip() + "." + line.strip())
     for line in f:
-        print(line.strip() + "-" + line.strip())
+        print(line.strip() + "-" + args.strip())
     for line in f:
-        print(line.strip() + "-" + line.strip())
+        print(args.strip() + "-" + line.strip())
     for line in f:
-        print(line.strip() + line.strip())
+        print(line.strip() + args.strip())
     for line in f:
-        print(line.strip() + line.strip())
+        print(args.strip() + line.strip())
