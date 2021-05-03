@@ -10,7 +10,7 @@ with open(sys.argv[1]) as f:
     for line in f:
         line=line.strip()
         args=sys.argv[2].strip()
-    	print line + "." + args
-        print line + "-" + args
-        print args + "-" + line
+    	print(line + "." + args)
+        print(line + "-" + args)
+        print(args + "-" + line)
         
